@@ -79,14 +79,25 @@
     </section>
 <aside>    
                 <div id="SeccionUbicacion">
-                <div id="SubSeccionUbicacion">Ubicación Sede Nacional</div>
+                <div id="SubSeccionUbicacion">contador de visitas</div>
+
+                 <script>yu=function(id){return document.getElementById(id);}
+              if(localStorage){
+              if(localStorage['visitas']==undefined){
+              localStorage['visitas']=0;
+              }var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+              var num=localStorage['visitas'];
+              var mensaje=num + " visitas";
+               yu('SubSeccionUbicacion').innerHTML=mensaje;}
+                        </script>
             </div>
             
+             <div id="apDiv6"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15908.191419159031!2d-74.0975768!3d4.5854329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1c38a35fe03bf87!2sUNAD+UNIVERSIDAD+NACIONAL+ABIERTA+Sede+Jos%C3%A9+Celestino+Mutis!5e0!3m2!1ses!2sco!4v1475599261440" width="260" height="280" frameborder="0" style="border:0" allowfullscreen></iframe></div>
             
             
              <div id="SeccionTwiter">       
               <figure>
-
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
          
 <a class="twitter-timeline" data-width="210" data-height="350" href="https://twitter.com/UniversidadUNAD">Tweets by UniversidadUNAD</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>     
     </figure>
