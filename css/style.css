@@ -24,29 +24,7 @@ header{
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
 }
-nav{
-	width: 1000px;
-	height: 65px;
-	background: #003f5e;
-	border-radius: 0px 0px 10px 10px;
-	color: #006680;
-}
-ul{
-margin-top:auto;
-margin-left: -30px;
-padding-top: 7px;
-}
-li{
-	float: left;
-	list-style-type: none;
-	padding: 10px;
-	background: #003f5e;
-	margin: 3px;
-	border-radius: 7px;
-	box-shadow: inset 0px 0px 5px white;
-	margin-top: 7px;
-	min-width:80px;
-}
+
 
 
 section{
@@ -95,35 +73,6 @@ p{
 	text-align: justify;
 }
 
-.menu li:hover ul {
-        display:block;
-        position: absolute;
-        padding: 0;
-        margin:-16px;
-        margin-top:10px;
-        min-width:100px;
-		float:left;
-                }
-.menu  li ul {
-        display:none;
-        position:absolute;
-        min-width:80px;
-		max-width:80px;
-		margin-top:1px;
-        }
-	
-
-		
-/*CLASES*/
-
-
-/*SEUDO CLASES*/
-p {
-	font-size: 12px;
-	font-weight: normal;
-	color: #333;
-
-}
 
 /*DIV*/
 
@@ -150,6 +99,8 @@ p {
 	font-size: 18px;
 	clip: rect(auto,auto,auto,auto);
             }
+
+            
            
             #SeccionTwiter{
             	position: absolute;
@@ -246,4 +197,72 @@ div {
 	margin: auto;
 	position: relative;
 	color: #000;
+}
+/*Estilo Menu*/
+nav{
+	width: 1000px;
+	height: 65px;
+	background: #003f5e;
+	border-radius: 0px 0px 10px 10px;
+	color: #006680;
+}
+ul{
+margin-top:auto;
+margin-left: -30px;
+padding-top: 7px;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: #003f5e;
+	margin: 3px;
+	border-radius: 7px;
+	box-shadow: inset 0px 0px 5px white;
+	margin-top: 7px;
+	min-width:80px;
+}
+.menu li:hover ul {
+        display:block;
+        position: absolute;
+        padding: 0;
+        margin:-16px;
+        margin-top:10px;
+        min-width:100px;
+		float:left;
+                }
+.menu  li ul {
+        display:none;
+        position:absolute;
+        min-width:80px;
+		max-width:80px;
+		margin-top:1px;
+        }
+	/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+.menu:link{
+	color: #FFF;
+	text-decoration: none;
+}
+.menu:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+.menu:hover{
+	color: #FF6600;
+	text-decoration: none;
+	/*text-shadow: 0 0 13px white;*/
+}
+.menu:active{
+	color: #003F5E;
+	text-decoration: none;
+}
+/*SEUDO CLASES*/
+p {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+
 }
